@@ -1,0 +1,19 @@
+{
+  "name": "todo-api-ci",
+  "version": "1.0.0",
+  "description": "API REST con tests y CI/CD",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "coverage": "nyc npm test"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "nyc": "^18.0.0",
+    "supertest": "^7.2.2"
+  }
+}
